@@ -4,6 +4,8 @@ import HomeContainer from './containers/HomeContainer';
 
 import FavoritePage from './containers/FavoritePage';
 
+
+
 import PublicLayout from './layouts/PublicLayout';
 
 
@@ -17,6 +19,7 @@ const router = createBrowserRouter([
        element: <HomeContainer /> },
       { path: "/favorite",
        element: <FavoritePage /> },
+      
       
     ],
   },

@@ -55,13 +55,18 @@ body{
 
 
 .DisplaySection{
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     border: 1px solid black;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.DisplaySection img{
+    width: 200px;
+    height: 200px;
 }
 
