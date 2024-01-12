@@ -10,7 +10,7 @@ const FavoritePage: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='TitleSection'>
       <h1>Pokémon List</h1>
       <AddPokemon onAdd={handleAddPokemon} />
       <PokemonList pokemons={pokemons} />
